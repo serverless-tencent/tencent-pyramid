@@ -2,7 +2,7 @@
 
 ## 简介
 
-腾讯云 Django Serverless Component, 支持 Restful API 服务的部署，不支持 Flask Command.
+腾讯云 Pyramid Serverless Component, 支持 Restful API 服务的部署.
 
 ## 目录
 
@@ -92,7 +92,7 @@ PyramidTest:
 
 这里要额外说明，`pyramidProjectName`实际上是包括你app的那个文件即`app = config.make_wsgi_app()`，并且要确保可以通过`文件名.app`从外引用该文件。
 
-- [更多配置](https://github.com/serverless-components/tencent-flask/blob/master/docs/configure.md)
+- [更多配置](docs/configure.md)
 
 ### 3. 部署
 

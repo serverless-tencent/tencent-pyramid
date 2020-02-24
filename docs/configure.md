@@ -11,7 +11,7 @@ pyramid:
   inputs:
     region: ap-guangzhou
     pyramidProjectName: myproject
-    functionName: flask-function
+    functionName: pyramid-function
     serviceName: mytest
     serviceId: service-np1uloxw
     code: ./code
@@ -46,7 +46,7 @@ Main param description
 | Param                                               | Required/Optional |   Default    | Description                                                                                 |
 | --------------------------------------------------- | :---------------: | :----------: | :------------------------------------------------------------------------------------------ |
 | region                                              |     Optional      | ap-guangzhou |                                                                                             |
-| djangoProjectName                                   |     Required      |              | Django Projct Name                                                                |
+| pyramidProjectName                                   |     Required      |              | Pyramid Projct Name                                                                |
 | functionName                                        |     Optional      |              | ServerlessCloudFunction Name                                                                |
 | serviceName                                         |     Optional      |              | API-Gateway service name, default to create a new serivce                                   |
 | serviceId                                           |     Optional      |              | API-Gateway service id, if it has will use this APII-Gateway service                        |
