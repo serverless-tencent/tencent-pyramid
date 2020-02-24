@@ -90,6 +90,8 @@ PyramidTest:
 
 注意，这里的pyramidProjectName必须要和你的项目名称一致！
 
+这里要额外说明，`pyramidProjectName`实际上是包括你app的那个文件即`app = config.make_wsgi_app()`，并且要确保可以通过`文件名.app`从外引用该文件。
+
 - [更多配置](https://github.com/serverless-components/tencent-flask/blob/master/docs/configure.md)
 
 ### 3. 部署
