@@ -1,7 +1,7 @@
 {
-  "name": "@gosls/tencent-pyramid",
+  "name": "@serverless/tencent-pyramid",
   "description": "Tencent Cloud Python Pyramid Serverless Component",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "main": "serverless.js",
   "publishConfig": {
     "access": "public"
