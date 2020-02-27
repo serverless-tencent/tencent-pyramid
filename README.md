@@ -66,7 +66,7 @@ $ touch serverless.yml
 
 ```yml
 PyramidTest:
-  component: '@gosls/tencent-pyramid'
+  component: '@serverless/tencent-pyramid'
   inputs:
     region: ap-guangzhou
     functionName: PyramidFunctionTest

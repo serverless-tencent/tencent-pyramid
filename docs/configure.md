@@ -7,7 +7,7 @@
 
 pyramid:
   region: ap-guangzhou
-  component: '@gosls/tencent-pyramid'
+  component: '@serverless/tencent-pyramid'
   inputs:
     region: ap-guangzhou
     pyramidProjectName: myproject
